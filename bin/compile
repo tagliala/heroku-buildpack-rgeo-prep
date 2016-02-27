@@ -11,7 +11,7 @@ echo "       Writing new .bundle/config"
 
 mkdir -p $1/.bundle
 echo "---
-BUNDLE_BUILD__RGEO: --with-opt-dir=$1 --with-opt-lib=$1/lib --with-opt-include=$1/include --with-geos-config=$1/bin/geos-config --with-proj-dir=$1 --with-proj-lib=$1/lib
+BUNDLE_BUILD__RGEO: --with-opt-dir=$1 --with-geos-config=$1/bin/geos-config
 BUNDLE_PATH: vendor/bundle
 BUNDLE_BIN: vendor/bundle/bin
 BUNDLE_WITHOUT: development:test
